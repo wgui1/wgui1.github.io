@@ -5,4 +5,4 @@ date: 2013-08-22 08:03
 comments: true
 categories: travel picture
 ---
-![Alt ride]({{ root_url }}/images/personal/DSCF0442-1.jpg)
+![Alt ride]({{ root_url }}/images/personal/DSCF0444.jpg)
