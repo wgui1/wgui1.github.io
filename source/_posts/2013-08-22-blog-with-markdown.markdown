@@ -3,7 +3,7 @@ layout: post
 title: "write blog with markdown"
 date: 2013-08-22 07:34
 comments: true
-categories: Webtool
+categories: web
 ---
 
 Markdown is really a elegent and the right tool for web writer.

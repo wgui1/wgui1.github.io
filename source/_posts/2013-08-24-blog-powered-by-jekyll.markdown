@@ -3,7 +3,7 @@ layout: post
 title: "blog powered by Jekyll"
 date: 2013-08-24 13:23
 comments: true
-categories: 
+categories: web
 ---
 
 Jekyll is a great tool, I use it build my blog.
