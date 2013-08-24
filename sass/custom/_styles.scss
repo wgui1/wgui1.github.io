@@ -1,2 +1,12 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+body > header {
+  h1 {
+    margin: 10px;
+    font-size: 3.5em;
+  }
+  div#logo {
+    margin-top: 0;
+  }
+}
+
