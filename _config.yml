@@ -54,9 +54,9 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
-blog_index_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html]
-post_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html]
-page_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html]
+blog_index_asides: 
+post_asides: 
+page_asides: 
 
 # ----------------------- #
 #   3rd Party Settings    #
@@ -69,8 +69,9 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: 
+twitter_user: weig
 twitter_tweet_button: false
+twitter_tweet_count: 5 
 
 # Google +1
 google_plus_one: false
@@ -86,7 +87,7 @@ pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user: wgui
+delicious_user: weigui
 delicious_count: 3
 
 # Disqus Comments
