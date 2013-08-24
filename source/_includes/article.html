@@ -34,3 +34,6 @@
 {% else %}
 <div class="entry-content">{{ content }}</div>
 {% endif %}
+{% if post.categories or page.categories %}
+<p class="meta">tags: {% include post/categories.html %}</p>
+{% endif %}
