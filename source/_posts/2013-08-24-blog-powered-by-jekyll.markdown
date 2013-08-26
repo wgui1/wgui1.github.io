@@ -6,10 +6,10 @@ comments: true
 categories: web
 ---
 
-Jekyll is a great tool, I use it build my blog.
+With great tools, I can build personal blog, fatastic!
 
 [Jekyll](http://jekyllrb.com) is a simple, blog aware, static site generator. 
 
-[octopress](http://octopress.org) is a framework designed by [Brandon Mathis](http://brandonmathis.com) for Jekyll.
+[octopress](http://octopress.org) is a framework Jekyll.
 
-[Slash](http://zespia.tw/Octopress-Theme-Slash) is a octopress theme.
+[Darkstripes](https://github.com/amelandri/darkstripes) is a octopress theme.
