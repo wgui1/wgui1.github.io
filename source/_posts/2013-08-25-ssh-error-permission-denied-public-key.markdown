@@ -22,8 +22,8 @@ The key point of public key problem may be related with both client and server s
 
 3. register ssh key to remote server, like git, heroku servers.
 
-[git: Generate SSH keys](https://help.github.com/articles/generating-ssh-keys)
+For github related, please refer to FAQ: [git: Generate SSH keys](https://help.github.com/articles/generating-ssh-keys)
 
-[heroku: Managing Your SSH keys](https://devcenter.heroku.com/articles/keys)
+For heroku related, [heroku: Managing Your SSH keys](https://devcenter.heroku.com/articles/keys)
 
 
