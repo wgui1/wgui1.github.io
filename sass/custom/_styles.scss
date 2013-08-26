@@ -10,3 +10,11 @@ body > header {
   }
 }
 
+article .meta .categories a {
+  color: #b1b1b1;
+  font-size: 13px;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
