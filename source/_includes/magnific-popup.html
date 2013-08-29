@@ -1,0 +1,12 @@
+<script src="{{ root_url }}/javascripts/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript">
+
+(function($){
+  $('.entry-content img').each(function() {
+      $(this).addClass("mfp-zoom")
+      $(this).magnificPopup({ items: [ {src: this.src} ],
+                              type: 'image',
+                              closeOnContentClick: true });
+      })
+})(jQuery);
+</script>
