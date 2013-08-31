@@ -6,6 +6,7 @@
 .swp
 .swo
 _deploy
+.themes/wgui
 public
 sass.old
 source.old
