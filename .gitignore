@@ -3,8 +3,6 @@
 .sass-cache
 .gist-cache
 .pygments-cache
-.swp
-.swo
 _deploy
 .themes/wgui
 public
@@ -14,3 +12,5 @@ source/_stash
 source/stylesheets/screen.css
 vendor
 node_modules
+*.swp
+*.swo
