@@ -4,7 +4,7 @@
   <div class="container">
     <nav class="blog-nav">
     {% for p in site.data.navigations %}
-      {% if page.title == p.name %}
+      {% if page.navigation == p.name %}
           <a class="blog-nav-item active" href="{{ BASE_PATH }}{{ p.url }}">
             {{ p.name }}
           </a>
