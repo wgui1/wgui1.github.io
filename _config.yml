@@ -4,6 +4,7 @@ email: guienator@gmail.com
 description: "Programming Life"
 baseurl: ""
 url: "http://blog.wgui.net"
+timezone: "Asia/Shanghai"
 
 # Build settings
 paginate: 5
