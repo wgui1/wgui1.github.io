@@ -3,17 +3,16 @@
 <div class="blog-masthead">
   <div class="container">
     <nav class="blog-nav">
-    {% assign pages_list = site.pages %}
-    {% for p in pages_list %}
-      {% unless p.url contains 'pages' %}
-        {% if p.title != null and p.group == 'navigation' %}
-            {% if page.url == p.url %}
-            <a class="blog-nav-item active" href="{{ BASE_PATH }}{{p.url}}">{{p.title}}</a>
-            {% else %}
-            <a class="blog-nav-item" href="{{ BASE_PATH }}{{p.url}}">{{p.title}}</a>
-            {% endif %}
-        {% endif %}
-      {% endunless %}
+    {% for p in site.data.navigations %}
+      {% if page.title == p.name %}
+          <a class="blog-nav-item active" href="{{ BASE_PATH }}{{ p.url }}">
+            {{ p.name }}
+          </a>
+      {% else %}
+          <a class="blog-nav-item" href="{{ BASE_PATH }}{{ p.url }}">
+            {{ p.name }}
+          </a>
+      {% endif %}
     {% endfor %}
     </nav>
   </div>
