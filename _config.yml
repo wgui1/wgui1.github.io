@@ -1,0 +1,13 @@
+# Site settings
+title: Wei's blog
+email: guienator@gmail.com
+description: "Programming Life"
+baseurl: ""
+url: "http://blog.wgui.net"
+
+# Build settings
+paginate: 5
+paginate_path: pages/page:num
+markdown: kramdown
+permalink: pretty
+exclude: ['Gemfile', 'Gemfile.lock']
