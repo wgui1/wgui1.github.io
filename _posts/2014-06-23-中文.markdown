@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: "中文测试页"
+title: "卑微的梦想"
 comments: true
 tags: programming javascript 
 categories: chinese
