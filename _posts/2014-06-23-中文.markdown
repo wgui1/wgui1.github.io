@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "卑微的梦想"
 comments: true
