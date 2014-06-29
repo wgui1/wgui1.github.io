@@ -10,10 +10,12 @@ categories: english
 Met strange error when execute sql in oracle 11g.
 
     select build_set_status.uuid from build_set_status where build_set_status.project in (select project from tracer_project_1 where tracer_project_1.project like '%tracer' order by project);
+    error: ORA-00907: missing right parenthesis
 
-After practicing googlefu, it turns out the error has been reported since 2008.
-And practice is that:
-*don't use ORDER BY inside an IN subquery.*
+After practicing googlefu, it turns out such kind of error has been reported since 2008.
+And tip for this oracle quirk is:
+
+> **don't use ORDER BY inside an IN subquery.**
 
 ###Reference:
 *   [ORA-00907: missing right parenthesis](http://oraclequirks.blogspot.com/2008/01/ora-00907-missing-right-parenthesis.html)
