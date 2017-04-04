@@ -1,6 +1,0 @@
-- name: Home
-  url: "/"
-- name: English
-  url: "/english"
-- name: 中文
-  url: "/chinese"

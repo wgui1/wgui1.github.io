@@ -1,9 +1,0 @@
----
-layout: post
-title: "卑微的梦想"
-comments: true
-tags: programming javascript 
-categories: chinese
----
-
-九把刀在书里说过：“有些梦想，纵 使永远也没办法实现，纵使光是连说出来 都很奢侈。但如果没有说出来温暖自己一 下，就无法获得前进的动力。”
