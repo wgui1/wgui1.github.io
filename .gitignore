@@ -4,5 +4,7 @@
 .gist-cache
 _site
 .jekyll-metadata
+.ruby-version
+vendor
 *.swp
 *.swo
