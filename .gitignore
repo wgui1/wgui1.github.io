@@ -3,5 +3,6 @@
 .sass-cache
 .gist-cache
 _site
+.jekyll-metadata
 *.swp
 *.swo
