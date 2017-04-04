@@ -7,10 +7,9 @@ url: "http://blog.wgui.net"
 timezone: "Asia/Shanghai"
 
 # Build settings
-paginate: 5
-paginate_path: pages/page:num
-markdown: kramdown
+#paginate: 5
+#paginate_path: pages/page:num
+#markdown: kramdown
 permalink: pretty
-exclude: ['Gemfile', 'Gemfile.lock']
-
 theme: jekyll-theme-cayman
+exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
