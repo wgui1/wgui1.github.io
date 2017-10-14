@@ -24,8 +24,8 @@ github_username:  wgui1
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight
-gems:
+theme: jekyll-theme-architect
+plugins:
   - jekyll-feed
   - jekyll-admin
 exclude:
