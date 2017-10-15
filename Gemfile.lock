@@ -238,7 +238,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-admin
-  jekyll-theme-architect
+  jekyll-theme-tactile
 
 BUNDLED WITH
    1.16.0.pre.3
