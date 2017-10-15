@@ -16,11 +16,16 @@
   <body>
     <div id="container">
       <div class="inner">
-
-        <header>
-          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-        </header>
+        <div id="logo">
+          <div id="logo"><img src="{{root_url}}/images/logo.png"></div>
+          <div class="clear"></div>
+        </div>
+        <div id="header">
+          <header>
+            <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+            <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+          </header>
+        </div>
         <hr>
         <section id="main_content">
           {{ content }}
