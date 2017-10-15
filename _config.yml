@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Programming as a dog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Wei
+twitter_username: ""
 github_username:  wgui1
 
 # Build settings
